@@ -1,0 +1,62 @@
+* {
+   font-family: 'CMUSerifRoman'; 
+   font-weight: normal; 
+   font-style: normal; ; 
+  text-align: center;}
+
+body {
+  padding: 0.5em;
+  width: 90%;
+  margin: 0 auto;
+  background-image:url("https://i.ytimg.com/vi/S-4UNSXMhDI/maxresdefault.jpg");
+  background-size:contain;
+  background-position: center;
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+}
+
+#content {
+  overflow: auto;
+  color: white; }
+#nav, #feature, #footer {
+  margin: 3%;}
+.column1 {
+  width: 100%;
+  float: center;
+  margin: 1%;
+  height: 100;
+  margin-bottom: 1em;
+  
+  padding: 0.5em;}
+main {
+  flex: auto;
+}
+
+h1 {
+  color:white;
+}
+
+#nav, #footer {
+  
+  
+  padding: 0.5em 12px;
+  margin: 0.5px;
+  padding: 10px 20px
+}
+  
+
+#nav li {
+  display:inline;
+  padding: 1em;
+}
+
+
+p, h1,a { 
+   font-family: 'CMUSerifRoman'; 
+   font-weight: normal; 
+   font-style: normal; 
+  font-size: 200%;
+  color:orange;
+}
